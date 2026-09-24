@@ -1,0 +1,15 @@
+1. Byte 1 is not valid because its way to big of a number
+
+2. Short 2 is invalid because it passes the minimum limit
+
+3. int2 is invalid because it exceeds the int limit
+
+4. Long2 is invalid because its missing the L suffix at the end
+
+5. Float2 is invalid because it is missing the F suffix making it a double 
+
+6. double2 is invalid because its a starting
+
+7. char4 is invalid because single quotes can only hold a single character
+
+8. bool2 is invalid because it is case-sensitive and for boolean to work it must be all lower case

@@ -1,0 +1,40 @@
+Q 1.1
+Factorial of 5 is: 120
+GCD: 6
+Power: 1024.0
+
+Q2.1
+User 1: ID = 1, Username = alice
+User 2: ID = 2, Username = bob
+User 3: ID = 3, Username = charlie
+Total number of instances created: 3
+User 4: ID = 4, Username = david
+User 5: ID = 5, Username = eve
+Total number of instances created: 5
+
+Q2.2
+What might we do in the case that we want to add a password associated with each UserAccount? Would it be an instance
+variable? A class variable? Should it be final? How would a user update it? Discuss!
+
+We would add an instance variable if we wanted a password non final too but private if we made it final we wouldnt be able
+to change it and if a user forgets the password then it would be harder to reset it and its an instance variable because every
+single user needs their own unique password which is why its also non static
+
+Q3.1
+Unique method signatures are essential in method overloading because it is what diffirentiates between the overloading specially the parameters
+which is why we need to add a specific parameter like a boolean to diffirentiate which area must be calculated
+
+
+Q3.2
+Area of rectangle (length 5, height 3): 15.0
+Area of square (side length 4): 16.0
+Area of circle (radius 3): 28.274333882308138
+Area of triangle (base 6, height 4): 12.0
+
+Q3.3
+Consistency allows a single intuitive method name to be reused for related operations and its easier to read instead of trying to memorize different method names
+
+
+Q4.1
+In Parent Class the printMessage method is declared as final so it cannot be overriden by a subclass such a child class
+to fix it we can remove final or child class having another method that doesnt overwrite it 

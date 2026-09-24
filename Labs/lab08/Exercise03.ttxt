@@ -1,0 +1,10 @@
+In the queue the remaining are 9,10,21
+
+and the stack it would be 1,5,9
+
+IF WE ARE ADDING FROM LEFT TO RIGHT
+
+Q3.1
+I think the trick would be to have a second stack that checks each value till each finds the minimum value at each point in the main stack history
+
+

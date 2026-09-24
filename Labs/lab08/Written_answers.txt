@@ -1,0 +1,3 @@
+ Q.1 
+ Yes using a  stack is highly efficient for checking balanced parentheses as it parses the input string in a single pass
+ and the last in first out mechanism works perfectly matches nested opening and closing pairs

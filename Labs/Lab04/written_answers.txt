@@ -1,0 +1,18 @@
+Q1.1
+No Its not always neccessairly serialization is mostly beneficial for 
+programs that have info that need to be stored and need to be diffirentiated
+and so it allows to save the exact state of an object onto a computer so it can be reloaded later fast
+
+Q1.2
+Original Character: Name= Link, Level= 3, Health= 1, Inventory= [Branch]
+Character saved to file: gameCharacter.ser
+Character saved to file: gameCharacter.ser
+Character loaded from file: gameCharacter.ser
+Loaded Character: Name= Link, Level= 3, Health= 1, Inventory= [Branch]
+
+Q2.1
+The password is ratatouille
+
+Q3.1
+A reverse Single linked list probably the thing that needs to maintain multiple references without losing the rest of the items in the singleLinked list
+and students must caount for it being only a single linked list where there is only one way and they must update the final head pointer over and over again without losing it

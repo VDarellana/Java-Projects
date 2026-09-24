@@ -1,0 +1,69 @@
+Q1.3.1
+Each random array has a different quantity of items so it can be way bigger than other ararys or as little as 1 item 
+Best-case order is that we get Fully sorted inputs minimize processing by requiring zero element swaps
+
+Q2.1
+Custom Sort Time: 288500 ns
+Java's Arrays.sort() Time: 1564100 ns
+Custom Sorted array: [11, 12, 22, 25, 64]
+Java Sorted array: [11, 12, 22, 25, 64]
+
+This is what is printed
+
+Q2.2
+it tells me that the java integration of arrays is way more optimized than a simple code and memory efficiency matters because our systems have a finite amount of RAM therefor 
+it cannot keep creating excessive amounts of data since it can run out of memory and not being able to deal with massive data amounts and time efficiency matter for the users experience and energy costs
+
+Q3.1
+
+Initializes array: {6,12,82,1,-6}
+
+Compare 6 and 12 - No swap 
+Compare 12 and 82 - No swap 
+Compare 82 and 1 - Swap 
+Compare 82 and -6 - Swap 
+Result after Pass 1: {6, 12, 1, -6, 82}
+
+Compare 6 and 12 - No swap 
+Compare 12 and 1 - swap 
+Compare 12 and -6 - Swap
+Result after pass 2: {6, 1, -6, 12, 82}
+
+Compare 6 and 1 - swap 
+Compare 6 and -6 - swap 
+Result after pass 3: {1, -6, 6, 12, 82}
+
+Compare 1 and -6 - Swap
+Result After pass 4: {-6, 1, 6 , 12, 82} and all sorted
+
+Q3.2
+Initial Array: {6, 12, 82, 1, -6}
+Pass 1 (Insert 12): Comparing 12 with 6; it is already in the correct position.
+Array: {6, **12**, 82, 1, -6}
+
+Pass 2 (Insert 82): Comparing 82 with 12; it is already in the correct position.
+Array: {6, 12, **82**, 1, -6}
+
+Pass 3 (Insert 1): Moving 1 down past 82, 12, and 6 to index 0.
+Array: {**1**, 6, 12, 82, -6}
+
+Pass 4 (Insert -6): Moving -6 down past 82, 12, 6, and 1 to the absolute front.
+Array: {**-6**, 1, 6, 12, 82}
+
+Q3.3
+
+Initial Array: {6, 12, 82, 1, -6}
+Find first minimum Element which is -6 and adds it to a subarray
+{-6}, {6,12,82,1}
+Finds second minimum element which is 1 and adds it to the subarray
+{-6,1}, {6,12,82}
+finds third minimum element which is 6 and adds it to the subarray
+{-6,1,6}, {12,82}
+finds fourth minimum element which is 12 and adds it to the subarray
+{-6,1,6,12},{82}
+finds fifth minimum element which is 82 and adds it to the subarray
+{-6,1,6,12,82}{} and when empty finishes the sorting
+
+Q4.3
+for Quick sort would be when the inputted array is already sorted because the algorith will choose an unbalanced partition to mitigate would be to use a random pivot selection and break patterns to avoid pre sorted data
+for Merge sort an array that has a bunch of items and it takes a lot of splits which causes a stackOverflowError to mitigate would be ideal to split big arrays into smaller parts and then order them and add them together

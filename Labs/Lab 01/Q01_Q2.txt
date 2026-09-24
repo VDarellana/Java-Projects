@@ -1,0 +1,30 @@
+1. Why would we want these instance variables to be private and not public?
+We would want these instance variables to be private to avoid any interlapping of other classes with the same named variable 
+this also gives us a starting point into knowing 
+
+2.Why do we want all of the methods to be public? What would happen if they were, for example, private?
+What is the issue with this?
+We want all the methods to be public because with the methods public they are able to access information from each  other in the class if we were to call
+a private getter method we would not be able to receive the data that has been stored in that method
+
+3. Could there potentially be more than one constructor assuming that they took unique arguments?
+Yes because there is constructor overloading where depending on the amount of arguments it takes it will switch the constructor to fill in other pieces
+
+
+
+Exercise 2
+
+1.Could we use an Array rather than an ArrayList to keep track of the Book objects in the Library? Why or
+why not?
+
+Yes we could use an array the only problem is that an array is a fixed sized so everytime we add a new book and it reaches the limit
+we would have to create a new array and it would consume more memory
+
+
+2.How might we adjust the code to allow for the borrowing (checking a book out) and returning (checking a
+book back in) of books? What would need to change in the Book class and/or the Library class? Explain in
+detail (you don’t necessarily need to write any code)
+
+Change a the book class where a boolean variable is added which isborrowed where we can keep track if the book is available or not
+then we would have to make getter methods and setter methods to set the new variable to true or false and if its possible to borrow
+

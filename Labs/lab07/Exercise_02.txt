@@ -1,0 +1,19 @@
+Q2.1
+Full? No every node needs to be full so with two children or exactly 0 since f has only one childe on its right side it is not a full tree
+
+Complete? No a complete tree needs every level to be fully packed but height 3 is missing a slots
+
+Balanced? No every node the heights of its left and right subtrees differ for example from I the height is 3 but the subtree is height 1 
+
+Perfect? No for a perfect tree it needs every internal node to have two children and every leaf at the same depth
+
+A binary search tree? No there is subtrees where the bigger value is on the left side when its supposed to be on the right for example node K should be on the left
+
+An AVL tree? No an AVL tree is a binary search tree that enforces the balance property at every node which in this case its already failing
+
+The pros of using a BST over a non-BST is that 
+1. Faster seach insertion and deletion
+
+2. Sorted Output without any extra steps
+
+3. Efficient range and min/max queries

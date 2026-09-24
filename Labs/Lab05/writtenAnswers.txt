@@ -1,0 +1,10 @@
+Q2.1
+Iterative Method is faster no its not surprising because its doing the operation in one single method instead of going recursively into a method call overhead which creates
+a new memory frame till its able to solve the operation which is why Iterative Method is faster
+
+Q2.2
+It acts as the exit condition that stops the recursion because then it could make an infinite recursion till it allocates all the memory and send a stackOverflowError
+
+
+Q3.2
+Number of palindromes found: 20 

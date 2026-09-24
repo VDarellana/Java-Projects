@@ -1,0 +1,19 @@
+Q1.1
+First read the code to understand the purpose and run it to see if an error is found switch the test to fewer nodes and more nodes
+Noticed the code was counting the longest path not the depth
+and later noticed it was counting the root node so I switched the Math.min to math.max and the return for the null node to be 0
+
+q1.2
+1. if its an empty tree depth should be 0
+2. Single node depth should be 1 only the root and no children
+3. Unbalanced/Skewed Tree can be checked with math.max and not math.min
+4.Tree with a subtree much deeper than other trees
+
+q2.1
+
+Steps I took where to use 3 case values first one was a minimum value like 1 I noticed that for 1 statue it printed 2 so I knew immediately there was a counting error somewhere
+second case I did was with an odd number and 3rd one I did was with a even value since the only error I got was with case 1 the minimum value I checked it over and saw
+that 1 printers is supposed to be 1 and only 1 thing can be printed 2 the while loop was <= n and not < n this causes the program to pass twice while we dont want it took
+
+Advoce for my friend would be the steps I took which was take all the cases you can think in that moment and try them 1 by 1 and see where the problem might be happening
+in this case we saw that the minimum case value was the problem which was why I could I identify immediately that there was a counting problem 

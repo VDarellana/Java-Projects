@@ -1,0 +1,9 @@
+Q4.1
+A pivot play a role in the speed of the quick sort algorithm by partitioning itself in the array this controls how many levels of recursion quicksorts needs
+to split down the amount in an array to be able to organize it
+
+Q6.1
+A file system maps naturally onto a tree data structure would be:
+
+The root would have a "/" to be easily indetified and this helps to under stand the depth of where to find the file 
+if there is a leaf children we can interpret it as a file but if its tree node with children below we naturally can understand its another folder

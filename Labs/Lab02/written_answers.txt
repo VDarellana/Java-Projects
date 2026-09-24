@@ -1,0 +1,29 @@
+1. SpaceExplorationAgency can manipulate all the explorer objects uniformly using the spaceexplorer reference it makes it also simplerer to add new explorers 
+
+2. By declaring a single unified array the interface type can hold all the objects inside the array which make it easier to call all the classes from a single variable instead of having to create different variables for each class
+
+3.Preparing for the mission. Checking all systems and supplies.
+MarsExplorer is exploring the red planet!
+MarsExplorer is collecting Martian soil samples!
+MarsExplorer: Exploration and sample collection on Mars complete!
+
+Preparing for the mission. Checking all systems and supplies.
+MoonExplorer is exploring the lunar surface!
+MoonExplorer is collecting moon rocks!
+MoonExplorer: Exploration and sample collection on the Moon complete!
+
+Preparing for the mission. Checking all systems and supplies.
+AsteroidExplorer is navigating the asteroid belt!
+AsteroidExplorer is collecting asteroid dust samples!
+AsteroidExplorer: Exploration and sample collection on asteroids complete!
+
+
+EXERCISE 2
+
+1. It acts as a formal warning to avoid an error to crash the program and makes it for other methods that are invoking a try-catch block to call that exception and avoid the crash or do another action
+
+2. WIt is missing custom exceptions where they are checked which is iwhy it will not compile and trigger an error
+
+Exercise 3
+
+1. We dont need to create an instance of simple division because the method is declared with static and methods normally belong directly to the class instead of individual object instances which allows you to immediately call the method

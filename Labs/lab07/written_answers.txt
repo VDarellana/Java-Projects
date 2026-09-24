@@ -1,0 +1,7 @@
+Q4.1
+Autocomplete / dictionary lookup 
+File system or directory indexing
+spell checkers
+
+Q4.2
+Yes it can hold custom class objects as long as the class defines its own way to be compared
